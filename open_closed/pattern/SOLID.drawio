@@ -1,0 +1,77 @@
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2025-03-27T03:15:26.000Z" version="22.1.22" etag="hVp4kXoYfdOqI5zjiaCs" type="embed">
+  <diagram id="EriJrfrA8CLOk_Ppdm93" name="Page-2">
+    <mxGraphModel dx="1147" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-2" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="465" width="230" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-3" value="- nombre: str&lt;div&gt;- generador_reporte: GeneradorReporte&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-2" vertex="1">
+          <mxGeometry y="26" width="230" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="26-VJDyTRyPzL_NNcpbn-2" vertex="1">
+          <mxGeometry y="70" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-5" value="+ get_nombre(self)-&amp;gt;str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-2" vertex="1">
+          <mxGeometry y="78" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-6" value="GenerarReportePDF" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="363" y="765" width="281" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-7" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-6" vertex="1">
+          <mxGeometry y="26" width="281" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="26-VJDyTRyPzL_NNcpbn-6" vertex="1">
+          <mxGeometry y="52" width="281" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-9" value="+ generar_reporte(self, empleado:Empleado)-&amp;gt;str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-6" vertex="1">
+          <mxGeometry y="60" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;GeneradorReporte&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ generar_reporte(empleado: Empleado): str&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="510" y="620" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-7" value="GenerarReporteCSV" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="654" y="766" width="276" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-8" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9FEk1FTxa1-2EXIP9JF1-7" vertex="1">
+          <mxGeometry y="26" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="9FEk1FTxa1-2EXIP9JF1-7" vertex="1">
+          <mxGeometry y="52" width="276" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-10" value="+ generar_reporte(self, empleado:Empleado)-&amp;gt;str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9FEk1FTxa1-2EXIP9JF1-7" vertex="1">
+          <mxGeometry y="60" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-11" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="1" source="26-VJDyTRyPzL_NNcpbn-2" target="9FEk1FTxa1-2EXIP9JF1-1" edge="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="620" y="820" as="sourcePoint" />
+            <mxPoint x="780" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.509;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="9FEk1FTxa1-2EXIP9JF1-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="495.7900000000001" y="764.0900000000001" as="sourcePoint" />
+            <mxPoint x="650" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="496" y="736" />
+              <mxPoint x="650" y="736" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FEk1FTxa1-2EXIP9JF1-13" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="9FEk1FTxa1-2EXIP9JF1-7" target="9FEk1FTxa1-2EXIP9JF1-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="488" y="826" as="sourcePoint" />
+            <mxPoint x="646.4802631578948" y="629" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="790" y="736" />
+              <mxPoint x="650" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,37 @@
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2025-03-27T03:20:41.977Z" etag="gQ8xAQqSACvp8iTYJi2V" version="22.1.22" type="embed">
+  <diagram id="EriJrfrA8CLOk_Ppdm93" name="Page-2">
+    <mxGraphModel dx="1147" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-2" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333.75" y="465" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-3" value="- nombre: str&lt;div&gt;- generador_reporte: GeneradorReporte&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-2" vertex="1">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="26-VJDyTRyPzL_NNcpbn-2" vertex="1">
+          <mxGeometry y="70" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-5" value="+ get_nombre(self)-&amp;gt;str&lt;br&gt;+ generar_reporte(self, tipo_reporte: str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-2" vertex="1">
+          <mxGeometry y="78" width="280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26-VJDyTRyPzL_NNcpbn-6" target="26-VJDyTRyPzL_NNcpbn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-6" value="GenerarReporte" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="650" width="385.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-7" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-6" vertex="1">
+          <mxGeometry y="26" width="385.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="26-VJDyTRyPzL_NNcpbn-6" vertex="1">
+          <mxGeometry y="52" width="385.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="26-VJDyTRyPzL_NNcpbn-9" value="+ generar_reporte(self, tipo_reporte: str, empleado:Empleado)-&amp;gt;str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="26-VJDyTRyPzL_NNcpbn-6" vertex="1">
+          <mxGeometry y="60" width="385.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
